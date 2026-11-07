@@ -20,7 +20,6 @@ log_root=${LOG_ROOT:-./logs}
 
 seq_len=96
 pred_len=192
-model_name=TimeFilter
 
 root_path_name=${ROOT_PATH:-./dataset/ETT-small}
 data_path_name=${DATA_PATH:-ETTm1.csv}
@@ -45,7 +44,6 @@ for random_seed in "${SEEDS[@]}"; do
         --root_path "$root_path_name"
         --data_path "$data_path_name"
         --model_id "${model_id_name}_${seq_len}_${pred_len}"
-        --model "$model_name"
         --pretrain_checkpoints "$pretrain_root"
         --checkpoints "$checkpoint_root"
         --data "$data_name"
