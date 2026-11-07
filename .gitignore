@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.ckpt
+*.pt
+*.pth
+wandb/
+runs/
+outputs/
+checkpoints/*
+!checkpoints/.gitkeep
+pretrain_checkpoints/*
+!pretrain_checkpoints/.gitkeep
+ns_scores_main/*
+!ns_scores_main/.gitkeep
+data/*
+!data/.gitkeep
+!checkpoints/False_ts100_PatchDN_ETTm1_96_192_TimeFilter_ETTm1_ftM_sl96_ll48_pl192_dm256_nh4_el2_dl1_df256_fc3_ebtimeF_dtTrue_Exp_0/
+!checkpoints/False_ts100_PatchDN_ETTm1_96_192_TimeFilter_ETTm1_ftM_sl96_ll48_pl192_dm256_nh4_el2_dl1_df256_fc3_ebtimeF_dtTrue_Exp_0/checkpoint.pth
+!pretrain_checkpoints/TimeFilter/
+!pretrain_checkpoints/TimeFilter/all/
+!pretrain_checkpoints/TimeFilter/all/ETTm1/
+!pretrain_checkpoints/TimeFilter/all/ETTm1/192/
+!pretrain_checkpoints/TimeFilter/all/ETTm1/192/checkpoint.pth
+
+# Local raw datasets and dataset symlinks
+/dataset/
+/logs/
+
+# Generated predictions, release archives, and isolated environments
+/test_results/
+/dist/
+/.venv*/
+
+# Local paper used while checking the implementation.
+/SHAPE_success.pdf

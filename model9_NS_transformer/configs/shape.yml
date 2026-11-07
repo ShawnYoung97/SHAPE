@@ -1,0 +1,13 @@
+model:
+  var_type: fixedlarge
+
+diffusion:
+  beta_schedule: linear
+  beta_start: 0.0001
+  beta_end: 0.1
+  timesteps: 100
+
+testing:
+  n_z_samples: 100
+  n_z_samples_depart: 1
+  n_bins: 10
