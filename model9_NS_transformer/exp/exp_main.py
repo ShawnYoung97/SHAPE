@@ -271,7 +271,7 @@ class Exp_Main(Exp_Basic):
             # test_loader is sequential so rho index aligns with sampling order below.
             print("[Test] test_ns.csv not found — computing NS groups online (fast pre-pass)")
             # Equation (26) is a window-level score: use all 96 historical
-            # steps and the full future, as in compute_ns_scores.py. SHAPE's
+            # steps and the full future for Equation (26). SHAPE's
             # 48-step training tail and patch-level weights are separate.
             _EPS_NS = 1e-6
             _rho_list = []
