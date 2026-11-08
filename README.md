@@ -1,6 +1,6 @@
 # SHAPE: Shift-Aware Preference Alignment for Probabilistic Time Series Forecasting
 
-The repo is the official implementation for the paper **SHAPE: Shift-Aware Preference Alignment for Probabilistic Time Series Forecasting** (submitted to arXiv; public link pending).
+The repo is the official implementation for the paper **SHAPE: Shift-Aware Preference Alignment for Probabilistic Time Series Forecasting**
 
 ## Overall Framework
 
@@ -50,8 +50,24 @@ GPU=0 SEEDS="2021" RUN_TAG_BASE=shape RUN_MODE=test bash scripts/ettm1_s2.sh
 
 ## Contact
 
-If you have any questions about this work or the code, please contact [Xiaoyang Li](mailto:xiaoyang.li01@adelaide.edu.au).
+If you have any questions about this work or the code, please feel free to contact:
+
+- **Xiaoyang Li**: [xiaoyang.li01@adelaide.edu.au](mailto:xiaoyang.li01@adelaide.edu.au)
 
 ## Acknowledgement
 
 This repository is built on [D³U](https://github.com/Torea-L/D3U). We thank the authors for their valuable code and efforts.
+
+## Citation
+
+If you find this repo helpful, please cite our paper.
+
+```bibtex
+@inproceedings{li2026shape,
+  title     = {{SHAPE}: Shift-Aware Preference Alignment for Probabilistic Time Series Forecasting},
+  author    = {Li, Xiaoyang and Zhang, Wei and Long, Guodong and Wang, Hua and Sheng, Quan Z.},
+  booktitle = {2026 IEEE International Conference on Data Mining (ICDM)},
+  year      = {2026},
+  note      = {Accepted for publication}
+}
+```
